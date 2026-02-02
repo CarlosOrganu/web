@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!doctype html>
 <html lang="es">
 <head>
@@ -79,134 +80,164 @@
   </section>
 
   <!-- BOOK -->
-  <section id="book" class="section">
+  <section id="book" class="section accordion">
     <div class="container">
-      <div class="section__head">
-        <h2>Book</h2>
-        <div class="muted">Haz click en una imagen para ampliarla.</div>
+      <div class="section__head accordion__head">
+        <button class="accordion-title" type="button" aria-expanded="false" aria-controls="bookContent">
+          <span>Book</span>
+          <span class="accordion-icon" aria-hidden="true"></span>
+        </button>
       </div>
 
-      <div class="grid">
-        <!-- LISTA COMPLETA (según tus capturas) -->
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2025-11-06 at 22.52.36.jpeg" alt="Book 01" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2025-11-06 at 22.52.37 (1).jpeg" alt="Book 02" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2025-11-06 at 22.52.37 (2).jpeg" alt="Book 03" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2025-11-06 at 22.52.37 (3).jpeg" alt="Book 04" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2025-11-06 at 22.52.37 (4).jpeg" alt="Book 05" loading="lazy"></button>
+      <div class="accordion-content" id="bookContent" hidden>
+        <h3 class="category-title">Reflexión</h3>
+        <div class="grid">
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2025-11-06 at 22.52.36.jpeg" alt="Reflexión 01" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2025-11-06 at 22.52.37 (1).jpeg" alt="Reflexión 02" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2025-11-06 at 22.52.37 (2).jpeg" alt="Reflexión 03" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2025-11-06 at 22.52.37 (3).jpeg" alt="Reflexión 04" loading="lazy"></button>
+        </div>
 
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2025-11-06 at 22.52.38.jpeg" alt="Book 06" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (1).jpeg" alt="Book 07" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (3).jpeg" alt="Book 08" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (4).jpeg" alt="Book 09" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (5).jpeg" alt="Book 10" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (6).jpeg" alt="Book 11" loading="lazy"></button>
+        <h3 class="category-title">Búsqueda</h3>
+        <div class="grid">
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2025-11-06 at 22.52.37 (4).jpeg" alt="Búsqueda 01" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2025-11-06 at 22.52.38.jpeg" alt="Búsqueda 02" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (1).jpeg" alt="Búsqueda 03" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (3).jpeg" alt="Búsqueda 04" loading="lazy"></button>
+        </div>
 
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2026-01-31 at 22.45.00.jpeg" alt="Book 12" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2026-01-31 at 22.45.00 (1).jpeg" alt="Book 13" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2026-01-31 at 22.45.00 (2).jpeg" alt="Book 14" loading="lazy"></button>
+        <h3 class="category-title">Calma</h3>
+        <div class="grid">
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (4).jpeg" alt="Calma 01" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (6).jpeg" alt="Calma 02" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (5).jpeg" alt="Calma 03" loading="lazy"></button>
+        </div>
 
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2026-01-31 at 22.45.01.jpeg" alt="Book 15" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2026-01-31 at 22.45.01 (1).jpeg" alt="Book 16" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2026-01-31 at 22.45.01 (2).jpeg" alt="Book 17" loading="lazy"></button>
+        <h3 class="category-title">Despertar</h3>
+        <div class="grid">
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2026-01-31 at 22.45.00.jpeg" alt="Despertar 01" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2026-01-31 at 22.45.00 (1).jpeg" alt="Despertar 02" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2026-01-31 at 22.45.00 (2).jpeg" alt="Despertar 03" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2026-01-31 at 22.45.01.jpeg" alt="Despertar 04" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2026-01-31 at 22.45.01 (2).jpeg" alt="Despertar 05" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2026-01-31 at 22.45.01 (1).jpeg" alt="Despertar 06" loading="lazy"></button>
+        </div>
 
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2026-01-31 at 23.32.36.jpeg" alt="Book 18" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2026-01-31 at 23.32.37 (3).jpeg" alt="Book 19" loading="lazy"></button>
-        <button class="card" type="button"><img src="../assets/images/WhatsApp Image 2026-01-31 at 22.45.02.jpeg" alt="Book 20" loading="lazy"></button>
+        <h3 class="category-title">Rodajes</h3>
+        <div class="grid">
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2026-01-31 at 23.32.36.jpeg" alt="Rodajes 01" loading="lazy"></button>
+          <button class="card" type="button"><img src="assets/images/WhatsApp Image 2026-01-31 at 23.32.37 (3).jpeg" alt="Rodajes 02" loading="lazy"></button>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- VIDEOS -->
-  <section id="videos" class="section">
+  <section id="videos" class="section accordion">
     <div class="container">
-      <div class="section__head">
-        <h2>Vídeos</h2>
+      <div class="section__head accordion__head">
+        <button class="accordion-title" type="button" aria-expanded="false" aria-controls="videosContent">
+          <span>Vídeos</span>
+          <span class="accordion-icon" aria-hidden="true"></span>
+        </button>
       </div>
 
-      <div class="videoGrid">
-        <!-- Todos apuntan a ../assets/images/ (tu carpeta real) -->
-        <div class="video">
-          <video controls preload="metadata" poster="../assets/images/WhatsApp Image 2026-01-31 at 22.45.02.jpeg">
-            <source src="../assets/images/WhatsApp Video 2025-08-17 at 13.42.51.mp4" type="video/mp4" />
-            Tu navegador no soporta este vídeo.
-          </video>
+      <div class="accordion-content" id="videosContent" hidden>
+
+        <h3 class="category-title">Montajes</h3>
+        <div class="videoGrid">
+          <div class="video">
+            <video controls preload="metadata" poster="assets/images/WhatsApp Image 2026-01-31 at 22.45.02.jpeg">
+              <source src="assets/images/WhatsApp Video 2025-08-17 at 13.42.51.mp4" type="video/mp4" />
+              Tu navegador no soporta este vídeo.
+            </video>
+          </div>
+
+          <div class="video">
+            <video controls preload="metadata" poster="assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (6).jpeg">
+              <source src="assets/images/WhatsApp Video 2026-01-31 at 21.40.19 - Compressed with FlexClip.mp4" type="video/mp4" />
+              Tu navegador no soporta este vídeo.
+            </video>
+          </div>
         </div>
 
-        <div class="video">
-          <video controls preload="metadata" poster="../assets/images/WhatsApp Image 2026-01-31 at 22.45.00.jpeg">
-            <source src="../assets/images/WhatsApp Video 2026-01-31 at 22.44.59.mp4" type="video/mp4" />
-            Tu navegador no soporta este vídeo.
-          </video>
+        <h3 class="category-title">Rodajes</h3>
+        <div class="videoGrid">
+          <div class="video">
+            <video controls preload="metadata" poster="assets/images/WhatsApp Image 2026-01-31 at 22.45.02.jpeg">
+              <source src="assets/images/WhatsApp Video 2026-01-31 at 22.50.47.mp4" type="video/mp4" />
+              Tu navegador no soporta este vídeo.
+            </video>
+          </div>
+
+          <div class="video">
+            <video controls preload="metadata" poster="assets/images/WhatsApp Image 2026-01-31 at 22.45.02.jpeg">
+              <source src="assets/images/WhatsApp Video 2026-01-31 at 22.45.01.mp4" type="video/mp4" />
+              Tu navegador no soporta este vídeo.
+            </video>
+          </div>
         </div>
 
-        <div class="video">
-          <video controls preload="metadata" poster="../assets/images/WhatsApp Image 2026-01-31 at 23.32.36.jpeg">
-            <source src="../assets/images/WhatsApp Video 2026-01-31 at 22.44.59 (1).mp4" type="video/mp4" />
-            Tu navegador no soporta este vídeo.
-          </video>
+        <h3 class="category-title">Playa</h3>
+        <div class="videoGrid">
+          <div class="video">
+            <video controls preload="metadata" poster="assets/images/WhatsApp Image 2026-01-31 at 22.45.00.jpeg">
+              <source src="assets/images/WhatsApp Video 2026-01-31 at 22.44.59.mp4" type="video/mp4" />
+              Tu navegador no soporta este vídeo.
+            </video>
+          </div>
+
+          <div class="video">
+            <video controls preload="metadata" poster="assets/images/WhatsApp Image 2026-01-31 at 23.32.36.jpeg">
+              <source src="assets/images/WhatsApp Video 2026-01-31 at 22.44.59 (1).mp4" type="video/mp4" />
+              Tu navegador no soporta este vídeo.
+            </video>
+          </div>
+
+          <div class="video">
+            <video controls preload="metadata" poster="assets/images/WhatsApp Image 2026-01-31 at 22.45.01.jpeg">
+              <source src="assets/images/WhatsApp Video 2026-01-31 at 22.44.59 (2).mp4" type="video/mp4" />
+              Tu navegador no soporta este vídeo.
+            </video>
+          </div>
         </div>
 
-        <!-- ESTE ERA EL QUE TE SALÍA GRIS: le meto poster sí o sí -->
-        <div class="video">
-          <video controls preload="metadata" poster="../assets/images/WhatsApp Image 2026-01-31 at 22.45.01.jpeg">
-            <source src="../assets/images/WhatsApp Video 2026-01-31 at 22.44.59 (2).mp4" type="video/mp4" />
-            Tu navegador no soporta este vídeo.
-          </video>
+        <h3 class="category-title">Nunchaku Triple</h3>
+        <div class="videoGrid">
+          <div class="video">
+            <video controls preload="metadata" poster="assets/images/WhatsApp Image 2026-01-31 at 22.52.36.jpeg">
+              <source src="assets/images/WhatsApp Video 2026-01-31 at 23.35.35.mp4" type="video/mp4" />
+              Tu navegador no soporta este vídeo.
+            </video>
+          </div>
+
+          <div class="video">
+            <video controls preload="metadata" poster="assets/images/WhatsApp Image 2026-01-31 at 22.52.38.jpeg">
+              <source src="assets/images/WhatsApp Video 2026-01-31 at 23.36.19.mp4" type="video/mp4" />
+              Tu navegador no soporta este vídeo.
+            </video>
+          </div>
+
+          <div class="video">
+            <video controls preload="metadata" poster="assets/images/WhatsApp Image 2025-11-06 at 22.52.37 (2).jpeg">
+              <source src="assets/images/WhatsApp Video 2026-01-31 at 23.36.19 (1).mp4" type="video/mp4" />
+              Tu navegador no soporta este vídeo.
+            </video>
+          </div>
+
+          <div class="video">
+            <video controls preload="metadata" poster="assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (4).jpeg">
+              <source src="assets/images/WhatsApp Video 2026-01-31 at 23.36.19 (2).mp4" type="video/mp4" />
+              Tu navegador no soporta este vídeo.
+            </video>
+          </div>
         </div>
 
-        <div class="video">
-          <video controls preload="metadata" poster="../assets/images/WhatsApp Image 2026-01-31 at 22.45.00 (1).jpeg">
-            <source src="../assets/images/WhatsApp Video 2026-01-31 at 22.45.01.mp4" type="video/mp4" />
-            Tu navegador no soporta este vídeo.
-          </video>
-        </div>
-
-        <div class="video">
-          <video controls preload="metadata" poster="../assets/images/WhatsApp Image 2026-01-31 at 22.45.00 (2).jpeg">
-            <source src="../assets/images/WhatsApp Video 2026-01-31 at 22.50.47.mp4" type="video/mp4" />
-            Tu navegador no soporta este vídeo.
-          </video>
-        </div>
-
-        <div class="video">
-          <video controls preload="metadata" poster="../assets/images/WhatsApp Image 2026-01-31 at 22.52.36.jpeg">
-            <source src="../assets/images/WhatsApp Video 2026-01-31 at 23.35.35.mp4" type="video/mp4" />
-            Tu navegador no soporta este vídeo.
-          </video>
-        </div>
-
-        <div class="video">
-          <video controls preload="metadata" poster="../assets/images/WhatsApp Image 2026-01-31 at 22.52.38.jpeg">
-            <source src="../assets/images/WhatsApp Video 2026-01-31 at 23.36.19.mp4" type="video/mp4" />
-            Tu navegador no soporta este vídeo.
-          </video>
-        </div>
-
-        <div class="video">
-          <video controls preload="metadata" poster="../assets/images/WhatsApp Image 2025-11-06 at 22.52.37 (2).jpeg">
-            <source src="../assets/images/WhatsApp Video 2026-01-31 at 23.36.19 (1).mp4" type="video/mp4" />
-            Tu navegador no soporta este vídeo.
-          </video>
-        </div>
-
-        <div class="video">
-          <video controls preload="metadata" poster="../assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (4).jpeg">
-            <source src="../assets/images/WhatsApp Video 2026-01-31 at 23.36.19 (2).mp4" type="video/mp4" />
-            Tu navegador no soporta este vídeo.
-          </video>
-        </div>
-
-        <div class="video">
-          <video controls preload="metadata" poster="../assets/images/WhatsApp Image 2025-11-06 at 22.52.38 (6).jpeg">
-            <source src="../assets/images/WhatsApp Video 2026-01-31 at 21.40.19 - Compressed with FlexClip.mp4" type="video/mp4" />
-            Tu navegador no soporta este vídeo.
-          </video>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- MANTRA + HABILIDADES + EXPERIENCIA (sin huecos) -->
+  <!-- MANTRA + HABILIDADES + EXPERIENCIA -->
   <section id="mantra" class="section">
     <div class="container">
       <div class="twoCol">
@@ -290,6 +321,6 @@
   <img id="lightboxImg" alt="Imagen ampliada" />
 </div>
 
-<script src="./script.js"></script>
+<script src="./app.js"></script>
 </body>
 </html>
